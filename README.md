@@ -35,6 +35,30 @@ Senior Project for W26 CIS4891.0M1. Strategy game website that allows users to c
 ![alt text](https://github.com/BDAhearn/Senior-Project---Multiplayer-Strategy-Game-Website/blob/main/Wireframs%20and%20diagrams/Player%20Profile%20Screen%20Wireframe.png?raw=true "Player Stats")
 
 ## User Stories
+**User Story 1**
+As an unregistered user
+I need to be able to register an account
+So that I can create game lobbies and my game stats
+
+**User Story 2**
+As a registered user
+I want private lobbies
+So that I can play games with specific friends
+
+**User Story 3**
+As a registered user
+I want to open lobbies
+So that I can play games whwnever my friends can't
+
+**User Story 4**
+As an unregistered user
+I want single accounts
+So that I can play with games with friends and join open lobbies without the hassle of logging in or creating an account
+
+**User Story 5**
+As a registered user
+I want local lobbies
+So that I can play games in person with friends
 
 ## Use Cases
 

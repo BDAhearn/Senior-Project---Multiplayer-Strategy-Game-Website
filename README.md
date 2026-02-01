@@ -12,16 +12,20 @@ Senior Project for W26 CIS4891.0M1. Strategy game website that allows users to c
   In conclusion, this project certainly has a lot more moving parts to it than what was initially assumed. All in all though it should help demonstrate a solid understanding of what has been learned throughout this degree program while still offering new ways to learn while working on it. 
 
 ## Solution Architecture Diagram
-
+![alt text](https://github.com/BDAhearn/Senior-Project---Multiplayer-Strategy-Game-Website/blob/main/Wireframs%20and%20diagrams/Solution%20Architecture%20Diagram.png?raw=true "Solution Architecture Diagram")
 
 ## Wireframe
 **Welcome Page**
+![alt text](https://github.com/BDAhearn/Senior-Project---Multiplayer-Strategy-Game-Website/blob/main/Wireframs%20and%20diagrams/Welcome%20Splash%20Page%20Wireframe.png?raw=true "Welcome Page")
 
 **Lobby Search and Creation**
+![alt text](https://github.com/BDAhearn/Senior-Project---Multiplayer-Strategy-Game-Website/blob/main/Wireframs%20and%20diagrams/Player%20Profile%20Screen%20Wireframe.png?raw=true "Lobby Search and Creation")
 
 **Game Play Page**
+![alt text](https://github.com/BDAhearn/Senior-Project---Multiplayer-Strategy-Game-Website/blob/main/Wireframs%20and%20diagrams/Game%20Interface%20Wireframe.png?raw=true "Game Play Page")
 
 **Player Stats**
+![alt text](https://github.com/BDAhearn/Senior-Project---Multiplayer-Strategy-Game-Website/blob/main/Wireframs%20and%20diagrams/Player%20Profile%20Screen%20Wireframe.png?raw=true "Player Stats")
 
 ## User Stories
 

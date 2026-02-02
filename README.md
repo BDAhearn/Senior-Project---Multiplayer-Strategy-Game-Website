@@ -145,3 +145,4 @@ So that I can play games in person with friends
 
 *Expected Result*: The User and their friends in meatspace are able to create a local lobby and play the game.
 ## Use-Case Diagram
+![alt text](https://github.com/BDAhearn/Senior-Project---Multiplayer-Strategy-Game-Website/blob/main/Wireframs%20and%20diagrams/Use%20Case%20Diagram%20UML.png?raw=true "Use-Case Diagram UML")

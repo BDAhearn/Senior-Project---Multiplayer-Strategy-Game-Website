@@ -1,6 +1,13 @@
 # Senior-Project---Multiplayer-Strategy-Game-Website
 Senior Project for W26 CIS4891.0M1. Strategy game website that allows users to create public, private, and local lobbies and track stats.
 
+#### Table of Contents
+- [Description](#description)
+- [Solution Architecture Diagram](#solution-architecture-diagram)
+- 
+
+
+
 ## Description
   The project I am going with is the multiplayer strategy game idea. The purpose of it is to allow players to play online or local multiplayer turned based strategy games. The main goal is to create a multiplayer lobby-based platform. While the games are indeed important to this project, they are secondary to the creation of the main platform. This will require players to create a lobby for the game of their choosing and let them keep it local (in person), invite friends, or have it open to everyone. It will primarily be a web-based application although it will be built to allow alternative clients to access it, such as a standalone app.
   

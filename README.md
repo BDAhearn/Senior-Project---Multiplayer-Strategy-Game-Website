@@ -1,13 +1,14 @@
 # Senior-Project---Multiplayer-Strategy-Game-Website
 Senior Project for W26 CIS4891.0M1. Strategy game website that allows users to create public, private, and local lobbies and track stats.
 
-#### Table of Contents
-- [Description](#description)
-- [Solution Architecture Diagram](#solution-architecture-diagram)
-- [Wireframe](#wireframe)
-- [User Stories](#user-stories)
-- [Use Cases](#use-cases)
-- [Use-Case Diagram](#use-case-diagram)
+|Table of Contents|
+|--------------------|
+| [Description](#description) | 
+| [Solution Architecture Diagram](#solution-architecture-diagram) | 
+| [Wireframe](#wireframe) | 
+| [User Stories](#user-stories) | 
+| [Use Cases](#use-cases) | 
+| [Use-Case Diagram](#use-case-diagram) | 
 
 
 ## Description

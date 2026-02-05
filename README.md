@@ -4,8 +4,10 @@ Senior Project for W26 CIS4891.0M1. Strategy game website that allows users to c
 #### Table of Contents
 - [Description](#description)
 - [Solution Architecture Diagram](#solution-architecture-diagram)
-- 
-
+- [Wireframe](#wireframe)
+- [User Stories](#user-stories)
+- [Use Cases](#use-cases)
+- [Use-Case Diagram](#use-case-diagram)
 
 
 ## Description

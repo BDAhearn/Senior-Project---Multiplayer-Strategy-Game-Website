@@ -9,6 +9,7 @@ Senior Project for W26 CIS4891.0M1. Strategy game website that allows users to c
 | [User Stories](#user-stories) | 
 | [Use Cases](#use-cases) | 
 | [Use-Case Diagram](#use-case-diagram) | 
+| [Requirements](#requirements)
 
 
 ## Description
@@ -156,3 +157,16 @@ So that I can play games in person with friends
 *Expected Result*: The User and their friends in meatspace are able to create a local lobby and play the game.
 ## Use-Case Diagram
 ![alt text](https://github.com/BDAhearn/Senior-Project---Multiplayer-Strategy-Game-Website/blob/main/Wireframs%20and%20diagrams/Use%20Case%20Diagram%20UML.png?raw=true "Use-Case Diagram UML")
+
+## Requirements
+|**ID**|**Requirements**|
+|--|-----|
+|R-1|The software shall allow users to play games of their choice that is offered either locally, with a private lobby online, or an open lobby as they choose.|
+|R-2|The software should allow private lobbies to be password protected.|
+|R-3|The software shall allow users to play the game real time without having to refresh their webpage.|
+|R-4|The software shall allow users to use either temporary accounts or accounts that they create.|
+|R-5|The software shall allow only the user who created the account to access their account.|
+|R-6|The software shall allow the user to track which games they play the most and how often they win and lose.|
+|R-7|The database should keep track of all of the games played with the final board, the users who played, and the winner.|
+|R-8|The software shall allow the games to run without users cheating.|
+|R-9|The software shall notifiy users when a game is complete.|

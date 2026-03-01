@@ -1,6 +1,17 @@
 # Senior-Project---Multiplayer-Strategy-Game-Website
 Senior Project for W26 CIS4891.0M1. Strategy game website that allows users to create public, private, and local lobbies and track stats.
 
+|Table of Contents|
+|--------------------|
+| [Description](#description) | 
+| [Solution Architecture Diagram](#solution-architecture-diagram) | 
+| [Wireframe](#wireframe) | 
+| [User Stories](#user-stories) | 
+| [Use Cases](#use-cases) | 
+| [Use-Case Diagram](#use-case-diagram) | 
+| [Requirements](#requirements)
+
+
 ## Description
   The project I am going with is the multiplayer strategy game idea. The purpose of it is to allow players to play online or local multiplayer turned based strategy games. The main goal is to create a multiplayer lobby-based platform. While the games are indeed important to this project, they are secondary to the creation of the main platform. This will require players to create a lobby for the game of their choosing and let them keep it local (in person), invite friends, or have it open to everyone. It will primarily be a web-based application although it will be built to allow alternative clients to access it, such as a standalone app.
   
@@ -146,3 +157,16 @@ So that I can play games in person with friends
 *Expected Result*: The User and their friends in meatspace are able to create a local lobby and play the game.
 ## Use-Case Diagram
 ![alt text](https://github.com/BDAhearn/Senior-Project---Multiplayer-Strategy-Game-Website/blob/main/Wireframs%20and%20diagrams/Use%20Case%20Diagram%20UML.png?raw=true "Use-Case Diagram UML")
+
+## Requirements
+|**ID**|**Requirements**|
+|--|-----|
+|R-1|The software shall allow users to play games of their choice that is offered either locally, with a private lobby online, or an open lobby as they choose.|
+|R-2|The software should allow private lobbies to be password protected.|
+|R-3|The software shall allow users to play the game real time without having to refresh their webpage.|
+|R-4|The software shall allow users to use either temporary accounts or accounts that they create.|
+|R-5|The software shall allow only the user who created the account to access their account.|
+|R-6|The software shall allow the user to track which games they play the most and how often they win and lose.|
+|R-7|The database should keep track of all of the games played with the final board, the users who played, and the winner.|
+|R-8|The software shall allow the games to run without users cheating.|
+|R-9|The software shall notifiy users when a game is complete.|

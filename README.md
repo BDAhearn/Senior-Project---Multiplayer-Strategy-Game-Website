@@ -14,7 +14,14 @@
 
 
 ## Description
-The strategy multiplayer game website will allow players to create lobbies to play other players in various games. While the primary focus is being able to play games, it will also have other features that facilitate this. These include account creation, lobby creation, and stat tracking. Lobbies will be able to be either open to everyone online, private to only people with the password, or completely local. Players will be able to create new lobbies or join existing ones of the game type they would like. The initial games will be simple games like tic-tac-toe or connect four but will be able to support more complext games like checkers or chess. The games will be played in real time and the gameboard will be updated for both players after one makes a move. The stats will be shown on each players page with the games they most played along with their win/loss/draw/forfiet ratios.
+The strategy multiplayer game website will allow players to create lobbies to play other players in various games. While the primary focus is being able to play games, it will also have other features that facilitate this. These include account creation, lobby creation, and stat tracking. 
+
+Lobbies will be able to be either open to everyone online, private to only people with the password, or completely local. Players will be able to create new lobbies or join existing ones of the game type they would like. Built into the lobbies will be systems that will detect when a player has disconnected or is purposefully stalling to get the other player to disconnect. This will help prevent players who are looking for easy wins from cheating the system. In order to facilitate private lobbies, players will be able to come up with a lobby password and then will be able to share a link and the password to a friend via an external messanger system.
+
+Users will not need to create an account to join lobbies, just to create them and to track their stats. When a player arrives who doesnt have account, they will be given a temporary account they can immediately play with, without doing anything on their end. Whenever they want they can register their account so they can gain full site features.
+
+The initial games will be simple games like tic-tac-toe or connect four but will be able to support more complext games like checkers or chess. The games will be played in real time and the gameboard will be updated for both players after one makes a move. The stats will be shown on each players page with the games they most played along with their win/loss/draw/forfiet ratios.
+ 
 
 ## Solution Architecture Diagram
 ![alt text](https://github.com/BDAhearn/Senior-Project---Multiplayer-Strategy-Game-Website/blob/main/Wireframs%20and%20diagrams/Solution%20Architecture%20Diagram.png?raw=true "Solution Architecture Diagram")

@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<form asp-controller="Account" asp-action="Register" method="post">
+    <input name="username" placeholder="Username" />
+    <input name="password" type="password" placeholder="Password" />
+    <button type="submit">Register</button>
+</form>

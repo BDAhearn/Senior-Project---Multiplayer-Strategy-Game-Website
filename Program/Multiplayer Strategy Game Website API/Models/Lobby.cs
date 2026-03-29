@@ -1,0 +1,28 @@
+﻿using System.Net.NetworkInformation;
+
+namespace Multiplayer_Strategy_Game_Website_API.Models
+{
+    public class Lobby
+    {
+        public int lobbyId { get; set; }
+        public int lobbyGameId { get; set; }
+        public string? lobbyStatus { get; set; }
+        public int  lobbyHostID { get; set; }
+        public string? lobbyHostStatus { get; set; }
+        public int? lobbyChallengerId { get; set; }
+        public string? lobbyChallengerStatus { get; set; }
+        public DateTime lobbyDateCreated { get; set; }
+        public string lobbyVisibility { get; set; }
+
+        public Lobby() { }
+
+        public Lobby(int _id, int _game, int _host, string _visibility, DateTime _date)
+        {
+            lobbyId = _id;
+            lobbyGameId = _game;
+            lobbyHostID = _host;
+            lobbyVisibility = _visibility;
+            lobbyDateCreated = _date;
+        }
+    }
+}

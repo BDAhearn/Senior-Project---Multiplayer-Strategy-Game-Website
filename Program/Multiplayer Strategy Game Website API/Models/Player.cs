@@ -1,0 +1,20 @@
+﻿namespace Multiplayer_Strategy_Game_Website_API.Models
+{
+    public class Player
+    {
+        public int playerId { get; set; }
+        public string playerName { get; set; }
+        public string playerPasswordHash { get; set; }
+        public DateTime playerDateJoined { get; set; }
+
+        public Player() { }
+
+        public Player (int _ID, string _playerName, string _playerPasswordHash, DateTime _playerDateJoined)
+        {
+            playerId = _ID;
+            playerName = _playerName;
+            playerPasswordHash = _playerPasswordHash;
+            playerDateJoined = _playerDateJoined;
+        }
+    }
+}

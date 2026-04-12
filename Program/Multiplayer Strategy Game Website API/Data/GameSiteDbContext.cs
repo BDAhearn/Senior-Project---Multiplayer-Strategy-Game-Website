@@ -8,33 +8,33 @@ namespace Multiplayer_Strategy_Game_Website_API.Data
         public GameSiteDbContext(DbContextOptions<GameSiteDbContext> options)
             : base(options) { }
 
-        public DbSet<Player> Players { get; set; }
+        public DbSet<Account> Players { get; set; }
         public DbSet<Game> Games { get; set; }
         public DbSet<Lobby> Lobbies { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Player>().HasData(
-                new Player
+            modelBuilder.Entity<Account>().HasData(
+                new Account
                 {
                     playerId = 1,
                     playerName = "techstreet",
-                    playerPasswordHash = PlayerController.HashPassword("password"),
+                    playerPasswordHash = AccountController.HashPassword("password"),
                     playerDateJoined = new DateTime(2025, 12, 11)
                 },
-                new Player
+                new Account
                 {
                     playerId = 2,
                     playerName = "progamer97",
-                    playerPasswordHash = PlayerController.HashPassword("123456"),
+                    playerPasswordHash = AccountController.HashPassword("123456"),
                     playerDateJoined = new DateTime(2024, 2, 15)
                 },
-                new Player
+                new Account
                 {
                     playerId = 3,
                     playerName = "GameSkayer93",
-                    playerPasswordHash = PlayerController.HashPassword("qwerty"),
+                    playerPasswordHash = AccountController.HashPassword("qwerty"),
                     playerDateJoined = new DateTime(2026,1,22)
                 }
             );

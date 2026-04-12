@@ -1,0 +1,24 @@
+wwwroot\css\styles.css
+wwwroot\js\auth.js
+wwwroot\js\api.js
+wwwroot\js\layout.js
+wwwroot\js\login.js
+wwwroot\js\register.js
+wwwroot\js\lobby.js
+wwwroot\partials\header.html
+wwwroot\register.html
+wwwroot\login.html
+wwwroot\index.html
+wwwroot\lobby.html
+C:\Users\Blake\Documents\Programs\School\Senior Project\GitHub\Senior-Project---Multiplayer-Strategy-Game-Website\Program\Multiplayer Strategy Game Website API\wwwroot\login.html
+C:\Users\Blake\Documents\Programs\School\Senior Project\GitHub\Senior-Project---Multiplayer-Strategy-Game-Website\Program\Multiplayer Strategy Game Website API\wwwroot\js\auth.js
+C:\Users\Blake\Documents\Programs\School\Senior Project\GitHub\Senior-Project---Multiplayer-Strategy-Game-Website\Program\Multiplayer Strategy Game Website API\wwwroot\js\lobby.js
+C:\Users\Blake\Documents\Programs\School\Senior Project\GitHub\Senior-Project---Multiplayer-Strategy-Game-Website\Program\Multiplayer Strategy Game Website API\wwwroot\lobby.html
+C:\Users\Blake\Documents\Programs\School\Senior Project\GitHub\Senior-Project---Multiplayer-Strategy-Game-Website\Program\Multiplayer Strategy Game Website API\wwwroot\js\register.js
+C:\Users\Blake\Documents\Programs\School\Senior Project\GitHub\Senior-Project---Multiplayer-Strategy-Game-Website\Program\Multiplayer Strategy Game Website API\wwwroot\js\login.js
+C:\Users\Blake\Documents\Programs\School\Senior Project\GitHub\Senior-Project---Multiplayer-Strategy-Game-Website\Program\Multiplayer Strategy Game Website API\wwwroot\js\layout.js
+C:\Users\Blake\Documents\Programs\School\Senior Project\GitHub\Senior-Project---Multiplayer-Strategy-Game-Website\Program\Multiplayer Strategy Game Website API\wwwroot\js\api.js
+C:\Users\Blake\Documents\Programs\School\Senior Project\GitHub\Senior-Project---Multiplayer-Strategy-Game-Website\Program\Multiplayer Strategy Game Website API\wwwroot\partials\header.html
+C:\Users\Blake\Documents\Programs\School\Senior Project\GitHub\Senior-Project---Multiplayer-Strategy-Game-Website\Program\Multiplayer Strategy Game Website API\wwwroot\css\styles.css
+C:\Users\Blake\Documents\Programs\School\Senior Project\GitHub\Senior-Project---Multiplayer-Strategy-Game-Website\Program\Multiplayer Strategy Game Website API\wwwroot\index.html
+C:\Users\Blake\Documents\Programs\School\Senior Project\GitHub\Senior-Project---Multiplayer-Strategy-Game-Website\Program\Multiplayer Strategy Game Website API\wwwroot\register.html

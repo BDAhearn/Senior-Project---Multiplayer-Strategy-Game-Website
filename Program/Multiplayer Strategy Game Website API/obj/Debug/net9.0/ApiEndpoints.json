@@ -1,5 +1,57 @@
 [
   {
+    "ContainingType": "AccountController",
+    "Method": "Login",
+    "RelativePath": "api/account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Multiplayer_Strategy_Game_Website_API.Models.AccountLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Multiplayer_Strategy_Game_Website_API.Models.AccountLoginResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AccountController",
+    "Method": "CreatePlayer",
+    "RelativePath": "api/account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newPlayer",
+        "Type": "Multiplayer_Strategy_Game_Website_API.Models.Account",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AccountController",
+    "Method": "SecureTest",
+    "RelativePath": "api/account/secure-test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Multiplayer_Strategy_Game_Website_API.Controllers.GameController",
     "Method": "Get",
     "RelativePath": "api/Game",
@@ -9,6 +61,16 @@
     "Parameters": [],
     "ReturnTypes": [],
     "EndpointName": "GetGames"
+  },
+  {
+    "ContainingType": "Multiplayer_Strategy_Game_Website_API.Controllers.GameController",
+    "Method": "GetAvailableGames",
+    "RelativePath": "api/Game/available",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Multiplayer_Strategy_Game_Website_API.Controllers.LobbyController",
@@ -22,43 +84,16 @@
     "EndpointName": "GetLobbies"
   },
   {
-    "ContainingType": "PlayerController",
-    "Method": "Get",
-    "RelativePath": "api/players",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [],
-    "EndpointName": "GetPlayers"
-  },
-  {
-    "ContainingType": "PlayerController",
-    "Method": "CreatePlayer",
-    "RelativePath": "api/players",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "newPlayer",
-        "Type": "Multiplayer_Strategy_Game_Website_API.Models.Player",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PlayerController",
-    "Method": "Login",
-    "RelativePath": "api/players",
+    "ContainingType": "Multiplayer_Strategy_Game_Website_API.Controllers.LobbyController",
+    "Method": "CreateLobby",
+    "RelativePath": "api/Lobby",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "request",
-        "Type": "LoginRequest",
+        "Type": "Multiplayer_Strategy_Game_Website_API.Models.CreateLobbyRequest",
         "IsRequired": true
       }
     ],

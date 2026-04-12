@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Lobby</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/auth.js"></script>
+    <script src="js/layout.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/lobby.js"></script>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="welcomeUser"></div>
+
+    <h1>Create a Lobby</h1>
+    <label>Game</label>
+    <select id="gameSelect"></select>
+
+    <label>Visibility</label>
+    <select id="visibility">
+        <option value="Public">Public</option>
+    </select>
+
+    <button onclick="createLobby()">Create Lobby</button>
+
+    <p id="result"></p>
+
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+            loadHeader();
+            loadName();
+            loadGames();
+        });
+    </script>
+</body>
+</html>

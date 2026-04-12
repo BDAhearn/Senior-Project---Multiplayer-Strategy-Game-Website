@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/api.js"></script>
+    <script src="js/register.js"></script>
+    <script src="js/layout.js"></script>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="welcomeUser"></div>
+
+    <h2>Register</h2>
+
+    <input id="username" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+    <button onclick="register()">Create Account</button>
+
+    <p><a href="login.html">Go to Login</a></p>
+
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+            loadHeader();
+            loadName();
+        });
+</body >
+</html >

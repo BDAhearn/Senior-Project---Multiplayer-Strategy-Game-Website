@@ -28,5 +28,20 @@ namespace Multiplayer_Strategy_Game_Website_API.Controllers
             return Ok(games);
         }
 
+        [HttpGet("available")]
+        public IActionResult GetAvailableGames()
+        {
+            var games = _context.Games
+                .Where(g => g.gameStatus == "Open" || g.gameStatus == "Testing")
+                .Select(g => new
+                {
+                    g.gameId,
+                    g.gameName,
+                    g.gameStatus
+                })
+                .ToList();
+
+            return Ok(games);
+        }
     }
 }

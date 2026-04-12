@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Multiplayer_Strategy_Game_Website_API.Data;
+using Multiplayer_Strategy_Game_Website_API.Models;
+using System.Security.Claims;
 
 namespace Multiplayer_Strategy_Game_Website_API.Controllers
 {
@@ -44,6 +47,38 @@ namespace Multiplayer_Strategy_Game_Website_API.Controllers
                 .ToList();
 
             return Ok(lobbies);
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult CreateLobby([FromBody] CreateLobbyRequest request)
+        {
+            if (request == null)
+                return BadRequest("Request is null");
+
+            var userIdClaim =
+                User.FindFirst(ClaimTypes.NameIdentifier) ??
+                User.FindFirst("sub");
+
+            if (userIdClaim == null)
+                return Unauthorized("Missing user id");
+
+
+            var userId = int.Parse(userIdClaim.Value);
+
+            var lobby = new Lobby
+            {
+                lobbyGameId = request.lobbyGameId,
+                lobbyVisibility = request.lobbyVisibility,
+                lobbyHostID = int.Parse(userIdClaim.Value),
+                lobbyStatus = "Open",
+                lobbyDateCreated = DateTime.UtcNow
+            };
+
+            _context.Lobbies.Add(lobby);
+            _context.SaveChanges();
+
+            return Ok(lobby);
         }
 
     }

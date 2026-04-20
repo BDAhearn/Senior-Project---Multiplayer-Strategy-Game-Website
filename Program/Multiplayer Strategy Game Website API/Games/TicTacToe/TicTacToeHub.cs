@@ -84,14 +84,6 @@ namespace Multiplayer_Strategy_Game_Website_API.Games.TicTacToe
                 winner,
                 moves
             });
-
-            await Clients.Group(lobbyId).SendAsync("GameUpdated", new
-            {
-                board,
-                currentTurn,
-                winner,
-                moves
-            });
         }
     }
 }
